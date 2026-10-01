@@ -39,10 +39,10 @@ h3 { font-size: 1.1rem; }
 .skip-link:focus { top: 1rem; }
 .app-shell { min-height: 100vh; display: grid; grid-template-columns: 248px minmax(0, 1fr); }
 .sidebar { background: linear-gradient(165deg, #171031 0%, #2c1753 65%, #173b52 130%); color: white; padding: 1.4rem 1rem; position: sticky; top: 0; height: 100vh; overflow-y: auto; }
-.brand { display: flex; align-items: center; gap: .75rem; margin: .2rem .4rem 1.8rem; color: white; text-decoration: none; }
-.brand-mark { width: 42px; height: 42px; display: grid; place-items: center; background: linear-gradient(135deg, #f1b741, #d65da0 45%, #5e74d6 70%, #4ac0b5); clip-path: polygon(50% 0, 100% 88%, 0 88%); color: #160c2e; font-weight: 900; padding-top: .45rem; }
-.brand-copy strong { display: block; font-size: 1.25rem; letter-spacing: -.03em; }
-.brand-copy span { color: #cfc5df; font-size: .7rem; letter-spacing: .08em; text-transform: uppercase; }
+.brand { width: 100%; display: flex; align-items: center; gap: .75rem; margin: .2rem .4rem 1.8rem; padding: 0; border: 0; background: transparent; color: white; text-align: left; text-decoration: none; appearance: none; }
+.brand-logo { width: 46px; height: 46px; flex: 0 0 46px; object-fit: contain; }
+.brand-copy strong { display: block; color: white; font-size: 1.25rem; letter-spacing: -.03em; }
+.brand-copy span { color: white; font-size: .7rem; letter-spacing: .08em; text-transform: uppercase; }
 .nav-group { margin-bottom: 1.4rem; }
 .nav-label { color: #a99bbe; font-size: .68rem; text-transform: uppercase; letter-spacing: .13em; padding: .4rem .65rem; }
 .nav-button { width: 100%; border: 0; background: transparent; color: #dfd8eb; display: flex; gap: .75rem; align-items: center; padding: .72rem .68rem; border-radius: 10px; text-align: left; }

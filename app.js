@@ -68,7 +68,7 @@ function shell(content) {
   const customer = selectedCustomer();
   return `<div class="app-shell">
     <aside class="sidebar ${ui.sidebarOpen ? 'open' : ''}" aria-label="Primary navigation">
-      <button class="brand" data-action="navigate" data-view="home" aria-label="Prism home"><span class="brand-mark">P</span><span class="brand-copy"><strong>Prism</strong><span>by Simpson Associates</span></span></button>
+      <button class="brand" data-action="navigate" data-view="home" aria-label="Prism home"><img class="brand-logo" src="assets/prism-logo.png" alt=""><span class="brand-copy"><strong>Prism</strong><span>by Simpson Associates</span></span></button>
       <div class="nav-group"><div class="nav-label">Discover</div>${navButton('home','Home')}${navButton('customers','Customers')}${navButton('register','Use-case register')}</div>
       <div class="nav-group"><div class="nav-label">Decide</div>${navButton('priorities','Priorities')}${navButton('roadmap','Roadmap')}${navButton('reports','Reports')}</div>
       <div class="nav-group"><div class="nav-label">Reference</div>${navButton('methodology','Methodology')}${navButton('settings','Settings & backup')}</div>
